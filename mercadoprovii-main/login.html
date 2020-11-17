@@ -1,0 +1,50 @@
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Mercado ProVII</title>
+	<!--JQUERY MOBILE-->
+	<link rel="stylesheet" href="themes/mercado3.min.css" />
+	<link rel="stylesheet" href="themes/jquery.mobile.icons.min.css" />
+	<link rel="stylesheet" href="themes/jquery.mobile.structure-1.4.5.min.css" />
+	<script src="jquery-1.11.1.min.js"></script>
+	<script src="jquery.mobile-1.4.5.min.js"></script>
+	<script src="./js.js"></script>
+	<!--CSS-->
+	<link rel="stylesheet" href="css/fontello.css">
+</head>
+<body>
+	<div data-role="page" data-theme="a">
+		<div data-role="header">
+			<a href="index.html"><i class="icon-home">Inicio</i></a>
+			<h1>Mercado ProVII</h1>
+		</div>
+		<div data-role="content" data-theme="a">
+			<div class="modal-dialog text-center">
+				<div class="col-sm-8 main-section">
+					<div class="modal-content">
+						<div class="form-group" id="user-group">
+							<input type="text" class="form-control" name="loginUSER" placeholder="Usuario" id="loginUSER"/>
+						</div>
+						<div class="form-group" id="contraseña-group">
+							<input type="password" class="form-control" name="loginPASS" placeholder="Contraseña" id="loginPASS"/>
+						</div>
+						<button type="button" href="home.html" class="btn btn-primary" id="loginBTN"> Ingresar </button>
+						<div class="col-12 forgot">
+							<p>¿Nuevo aqui?</p>
+							<a href="registrarse.html" title="Crear una cuenta">Create una cuenta</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Footer  -->
+		<div data-role="footer" data-position="fixed" style="text-align:center;">
+			2020 &copy; Universidad Nueva Esparta
+			<a style="font-size: 10.5px;" href="https://github.com/pro7une">
+				<i class="icon-github-circled"></i> Github
+			</a>
+		</div>
+	</div>
+</body>
+</html>

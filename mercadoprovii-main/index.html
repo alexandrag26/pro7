@@ -1,0 +1,64 @@
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Mercado ProVII</title>
+	<!--JQUERY MOBILE-->
+	<link rel="stylesheet" href="themes/mercado3.min.css" />
+	<link rel="stylesheet" href="themes/jquery.mobile.icons.min.css" />
+	<link rel="stylesheet" href="themes/jquery.mobile.structure-1.4.5.min.css" />
+	<script src="jquery-1.11.1.min.js"></script>
+	<script src="jquery.mobile-1.4.5.min.js"></script>
+	<!--CSS-->
+	<link rel="stylesheet" href="css/fontello.css">
+</head>
+<body>
+	<div data-role="page" id="inicio">
+		<!-- Cabecera -->
+		<div data-role="header">
+			<h1>Mercado ProVII</h1>
+			<a href="login.html"><i class="icon-login">Login</i></a>
+		</div>
+
+		<div data-role="content">
+			<img src="images/articulos.jpg" style="height:300px;width:100%">
+
+			<ul data-role="listview" data-inset="true" data-split-theme="d">
+				<li data-role="list-divider"><i class="icon-newspaper">Noticias</i></li>
+				<li>
+					<a href="#">
+						<img src="images/noticia1.jpg">
+						<h2>Covid-19</h2>
+						<p>Medidas de prevención:
+							Evitar al máximo la manipulación de alimentos por parte de usuarios. 
+							Además, aplicar periódicamente desinfectantes de ambiente en los sitios de mayor circulación y 
+							en donde se exhiban alimentos sin empaque (frutas, verduras, hortalizas, tubérculos, entre otros.).
+						</p>
+					</a>
+					<a href="#" data-rel="popup" data-position-to="window" data-transition="pop">Mas Informacion</a>
+				</li>
+				<li>
+					<a href="#">
+						<img src="images/blackfriday.jpg">
+						<h2>Descuentos en black friday!</h2>
+						<p>Internet, en este caso, se ha convertido en uno de sus grandes aliados.
+							este viernes negro comprará mucho más a través de las tiendas online. El dato es todavía más revelador 
+							cuando se analiza el volumen de transacciones. Porque según el informe, el canal digital representará 
+							este año el 89 % de las compras.
+						</p>
+					</a>
+					<a href="#" data-rel="popup" data-position-to="window" data-transition="pop">Mas Informacion</a>
+				</li>
+			</ul>
+		</div>
+
+		<!-- Footer  -->
+        <div data-role="footer" data-position="fixed" style="text-align:center;">
+            2020 &copy; Universidad Nueva Esparta
+            <a style="font-size: 10.5px;" href="https://github.com/pro7une">
+                <i class="icon-github-circled"></i> Github
+            </a>
+        </div>
+	</div>
+</body>
+</html>
